@@ -1,0 +1,12 @@
+body {
+    background-color: #7c95AE;
+}
+h3 {
+    font-size: 25px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: left;
+}
+p, li, table{
+font-size: 20px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
