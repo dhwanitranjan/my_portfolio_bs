@@ -48,18 +48,57 @@
         <div class="container">
             <br><br><br><br><br>
             <div class="row">
-              <div class="col-md-12 col-sm-12">
+              <div class="col-md-6 col-sm-12">
+                <form action="/action_page.php" class="needs-validation" novalidate>
+                  <div class="form-group">
+                    <label for="uname">Username:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember" required> Remember me.
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Check this checkbox to continue.</div>
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <br><br><br>
+                <div class="alert alert-warning">
+                  <strong>Warning!</strong> We may use this email id to connet to you.
+                </div>
+              </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
                 <p>Created by:</p>
                 <p>Dhwanit R Ranjan</p>
                 <a target="_blank" href="dhwanitranjan@msitprogram.net" class="fa fa-google"></a>
                 <a target="_blank" href="https://www.linkedin.com/in/dhwanit-r-ranjan-8b38a41b7/" class="fa fa-linkedin"></a>
                 <a target="_blank" href="https://github.com/dhwanitranjan" class="fa fa-github"></a>
               </div>
+              <div class="col-md-6 col-sm-12">
+                <br><br><br>
+                <div class="alert alert-info">
+                  <strong>Info!</strong> You can get contact information by chicking on the logoes.
+                </div>
+              </div>
             </div>
             <br><br><br>
-            <p>To give any feedback, click on following button:</p>
             <div class="row">
-              <div class="class">
+              <div class="col-md-6 col-sm-12">
+                <p>To give any feedback, click on following button:</p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                   Fill Feedback Form
                 </button>
@@ -88,6 +127,10 @@
                     </div>
                   </div>
                 </div>
+              </div>  
+              <br><br><br>         
+              <div class="alert alert-info col-md-6 col-sm-12 margin">
+                <strong>Info!</strong> Please fill the feedback form. You can also add suggestions.
               </div>
             </div>
         </div>
